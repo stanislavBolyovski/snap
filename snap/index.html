@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>snap</title>
+    </head>
+    <body>
+        <div class="height">
+            <div class="nav">
+                <div class="row">
+                    <p id="logo">snap</p>
+                    <ul class="desktop-nav">
+                        <li><a id="featuresD">Features<i class="fa-solid
+                                    fa-angle-down"></i></a>
+                            <div class="opened-desktop">
+                                <a href=""><i class="fa-solid fa-clipboard-list
+                                        purple"></i>Todo List</a>
+                                <a href=""><i class="fa-solid fa-calendar areo"></i>Calendar</a>
+                                <a href=""><i class="fa-solid fa-bell amber"></i>Reminders</a>
+                                <a href=""><i class="fa-solid fa-clock
+                                        amethyst"></i>Planning</a>
+                            </div>
+                        </li>
+                        <li><a id="companyD">Company<i class="fa-solid
+                                    fa-angle-down"></i></a>
+                                    <div class="openedC-desktop">
+                                        <a href="">History</a>
+                                        <a href="">Our Team</a>
+                                        <a href="">Blog</a>
+                                    </div></li>
+                       
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </div>
+                <div class="login-desktop">
+                    <a href="">Login</a>
+                    <button>Register</button>
+                </div>
+                <i class="fa-solid fa-bars" id="menu-bars"></i>
+
+            </div>
+            <div class="main">
+                <div class="img-container">
+                    <img src="img/image-hero-mobile.png" class="imgMobile"
+                        alt="">
+                    <img src="img/image-hero-desktop.png" class="imgDesktop"
+                        alt="">
+                </div>
+                
+                <div class="text">
+                    <h1>Make remote work</h1>
+                    <p>Get your team in sync, no matter your location.Streamline
+                        processes, create team rituals, and watch productivity
+                        soar.</p>
+                    <button class="button">Learn more</button>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-img">
+                    <img src="img/client-databiz.svg">
+                </div>
+                <div class="footer-img">
+                    <img src="img/client-audiophile.svg" alt="">
+                </div class="footer-img">
+                <div>
+                    <img src="img/client-meet.svg" alt="">
+                </div>
+                <div class="footer-img">
+                    <img src="img/client-maker.svg" alt="">
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="opened" id="menu">
+            <div class="x">
+                <i class="fa-solid fa-xmark" id="x"></i>
+            </div>
+            <div>
+                <ul>
+                    <li id="features"><a>Features</a><span><i class="fa-solid
+                                fa-angle-down"></i></span></li>
+                    <div class="innerUl">
+                        <ul>
+                            <li>
+                                <span><i class="fa-solid fa-clipboard-list
+                                        purple"></i></span>
+                                <a href="">Todo List</a>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-calendar areo"></i></span>
+                                <a href="">Calendar</a>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-bell amber"></i></span>
+                                <a href="">Reminders</a>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-clock amethyst"></i></span>
+                                <a href="">Planning</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <li id="company"><a>Company</a><span><i class="fa-solid
+                                fa-angle-down"></i></span></li>
+                    <div class="innerUlC">
+                        <ul>
+                            <li><a href="">History</a></li>
+                            <li><a href="">Our Team</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <a href="">Login</a>
+                <button><a href="">Register</a></button>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/40a7b6eb93.js"
+            crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
